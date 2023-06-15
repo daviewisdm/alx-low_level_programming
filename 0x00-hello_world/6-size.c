@@ -3,6 +3,7 @@
  * main - Entry point
  * Return: always 0 (Success)
  */
+
 int main(void)
 {
 printf("Size of a char: %d byte(s)", sizeof(char));
