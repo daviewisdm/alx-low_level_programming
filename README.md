@@ -1,4 +1,4 @@
-## ALX LOW LEVEL-PROGRAMMING
+### ALX LOW LEVEL-PROGRAMMING
 
 - [0x00. C - Hello, World](./0x00-hello_world)
 - [0x01. C - Variables, if, else, while](./0x01-variables_if_else_while)
