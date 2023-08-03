@@ -1,19 +1,24 @@
 #include "main.h"
 
 /**
- * print_binary - prints the binary equivalent of a decimal number
- * @n: number to print in binary
+ * print_binary - function that prints bin represenatation of a n.
+ * @n: integer.
+ *
+ * You are not allowed to use arrays.
+ * You are not allowed to use malloc.
+ * You are not allowed to use the % or / operators.
+ * Return: no return.
  */
 void print_binary(unsigned long int n)
 {
-	int i, count = 0;
-	unsigned long int current;
+	int p, count = 0;
+	unsigned long int recent;
 
-	for (i = 63; i >= 0; i--)
+	for (p = 63; p >= 0; p--)
 	{
-		current = n >> i;
+		recent = n >> p;
 
-		if (current & 1)
+		if (recent & 1)
 		{
 			_putchar('1');
 			count++;
